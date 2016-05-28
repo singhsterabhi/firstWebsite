@@ -1,0 +1,120 @@
+.nav a {
+  color: #000000;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+#home:hover{
+  position: relative;
+}
+#home:hover:before{
+  content: url(img/home.png); 
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 27px;
+}
+#fb:hover{
+  position: relative;
+}
+#fb:hover:before{
+  content: url(img/fb.png); 
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 27px;
+}
+#twitter:hover{
+  position: relative;
+}
+#twitter:hover:before{
+  content: url(img/twitter.png); 
+    display: block;
+    position: absolute;
+    left: 13px;
+    top: 27px;
+}
+#linkedin:hover{
+  position: relative;
+}
+#linkedin:hover:before{
+  content: url(img/linkedin.png); 
+    display: block;
+    position: absolute;
+    left: 13px;
+    top: 27px;
+}
+#google:hover{
+  position: relative;
+}
+#google:hover:before{
+  content: url(img/google.png); 
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 27px;
+}
+#git:hover{
+  position: relative;
+}
+#git:hover:before{
+  content: url(img/git.png); 
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 27px;
+}
+.jumbotron {
+  background-image:url(img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #f7f7f7;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size : 24px;
+}
+.neighborhood-guides p{
+    font-size:15px;
+    margin-bottom: 13px;
+}
